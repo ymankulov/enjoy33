@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background: rgb(23, 0, 94);
+  background: linear-gradient(
+    -120deg,
+    rgba(23, 0, 94, 1) 0%,
+    rgba(10, 68, 178, 1) 43%,
+    rgba(4, 15, 68, 1) 100%
+  );
+  min-height: 100vh;
+}
